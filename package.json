@@ -1,0 +1,45 @@
+{
+  "name": "chartjs-adapter-moment",
+  "homepage": "https://www.chartjs.org",
+  "description": "Chart.js adapter to use Moment.js for time functionalities",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/chartjs-adapter-moment.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chartjs/chartjs-adapter-moment.git"
+  },
+  "keywords": [
+    "chart.js",
+    "date",
+    "moment",
+    "time"
+  ],
+  "files": [
+    "bower.json",
+    "dist/*.js"
+  ],
+  "devDependencies": {
+    "chart.js": "^2.8.0",
+    "eslint-config-chartjs": "^0.2.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-file": "^0.4.0",
+    "karma": "^4.4.1",
+    "karma-firefox-launcher": "^1.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "karma-rollup-preprocessor": "^7.0.2",
+    "karma-spec-reporter": "^0.0.32",
+    "moment": "^2.10.2",
+    "rollup": "^1.27.13",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.3",
+    "yargs": "^15.0.2"
+  },
+  "peerDependencies": {
+    "chart.js": ">=2.8.0",
+    "moment": "^2.10.2"
+  }
+}
