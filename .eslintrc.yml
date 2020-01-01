@@ -1,11 +1,12 @@
 extends: chartjs
 
 parserOptions:
-  ecmaVersion: 5
-  sourceType: module
+  ecmaVersion: 2018
+  sourceType: 'module'
 
 env:
   browser: true
+  es6: true
   node: true
 
 rules:
