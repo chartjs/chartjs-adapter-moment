@@ -2,7 +2,7 @@
   "name": "chartjs-adapter-moment",
   "homepage": "https://www.chartjs.org",
   "description": "Chart.js adapter to use Moment.js for time functionalities",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/chartjs-adapter-moment.js",
   "repository": {
