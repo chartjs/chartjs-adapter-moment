@@ -37,6 +37,8 @@ deploy:
     on:
       tags: true
   - provider: npm
+    # Revert after dp2 becomes default https://docs.travis-ci.com/user/deployment-v2
+    edge: true
     email: $NPM_AUTH_EMAIL
     api_key: $NPM_AUTH_TOKEN
     skip_cleanup: true
