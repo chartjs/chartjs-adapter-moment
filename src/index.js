@@ -1,7 +1,7 @@
 'use strict';
 
 import moment from 'moment';
-import { _adapters } from 'chart.js';
+import Chart from 'chart.js';
 
 const FORMATS = {
 	datetime: 'MMM D, YYYY, h:mm:ss a',
@@ -16,7 +16,7 @@ const FORMATS = {
 	year: 'YYYY'
 };
 
-_adapters._date.override(typeof moment === 'function' ? {
+Chart._adapters._date.override(typeof moment === 'function' ? {
 	_id: 'moment', // DEBUG ONLY
 
 	formats: function() {

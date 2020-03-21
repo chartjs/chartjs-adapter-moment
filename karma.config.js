@@ -1,5 +1,5 @@
-const commonjs = require('rollup-plugin-commonjs');
-const resolve = require('rollup-plugin-node-resolve');
+const commonjs = require('@rollup/plugin-commonjs');
+const resolve = require('@rollup/plugin-node-resolve');
 const builds = require('./rollup.config');
 
 module.exports = function(karma) {
