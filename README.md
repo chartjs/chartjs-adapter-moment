@@ -4,7 +4,7 @@
 
 ## Overview
 
-This adapter allows the use of Moment.js with Chart.js. Moment.js is a very heavy library and this not recommended for client-side development. However, it was previously the only library supported by Chart.js and so continues to be supported.
+This adapter allows the use of Moment.js with Chart.js. Moment.js is a very heavy library and thus not recommended for client-side development. However, it was previously the only library supported by Chart.js and so continues to be supported. You may prefer [chartjs-adapter-date-fns](https://github.com/chartjs/chartjs-adapter-date-fns) for a minimal bundle size or [chartjs-adapter-luxon](https://github.com/chartjs/chartjs-adapter-luxon) for larger bundle size with additional functionality included such as i18n and time zone support.
 
 Requires [Chart.js](https://github.com/chartjs/Chart.js/releases) **2.8.0** or later and [Moment.js](https://momentjs.com/) **2.0.0** or later.
 
