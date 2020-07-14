@@ -15,7 +15,6 @@ script:
   - gulp lint
   - gulp build
   - gulp test-unit
-  - gulp bower
 
 # IMPORTANT: scripts require GITHUB_AUTH_TOKEN and GITHUB_AUTH_EMAIL environment variables
 # IMPORTANT: scripts has to be set executables in the Git repository (error 127)
