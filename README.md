@@ -28,9 +28,9 @@ import 'chartjs-adapter-moment';
 By default, `https://cdn.jsdelivr.net/npm/chartjs-adapter-moment` returns the latest (minified) version, however it's [highly recommended](https://www.jsdelivr.com/features) to always specify a version in order to avoid breaking changes. This can be achieved by appending `@{version}` to the URL:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.24.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@0.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@0.1.1"></script>
 ```
 
 Read more about jsDelivr versioning on their [website](http://www.jsdelivr.com/).
