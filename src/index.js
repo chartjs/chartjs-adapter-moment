@@ -47,7 +47,8 @@ Chart._adapters._date.override(typeof moment === 'function' ? {
 	startOf: function(time, unit, weekday) {
 		time = moment(time);
 		if (unit === 'isoWeek') {
-			return time.isoWeekday(weekday).valueOf();
+			weekday = Math.trunc(Math.min(Math.max(0, weekday), 6));
+			return time.isoWeekday(weekday).startOf('day').valueOf();
 		}
 		return time.startOf(unit).valueOf();
 	},
