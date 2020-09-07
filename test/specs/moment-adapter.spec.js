@@ -34,8 +34,8 @@ describe('Moment Adapter', function() {
 			expect(startOf.day).not.toBeGreaterThan(dt.day);
 		}
 
-		for (let dayOfMonth=1; dayOfMonth<=daysInMonth; dayOfMonth++) {
-			const dt = moment({day: dayOfMonth, hour: 8, minute: 30});
+		for (let dayOfMonth = 1; dayOfMonth <= daysInMonth; dayOfMonth++) {
+			const dt = moment({ day: dayOfMonth, hour: 8, minute: 30 });
 			const startOf = adapter.startOf(dt.valueOf(), 'isoWeek', true);
 			expect(adapter.format(startOf, 'ddd')).toEqual('Mon');
 			expect(startOf.day).not.toBeGreaterThan(dt.day);
