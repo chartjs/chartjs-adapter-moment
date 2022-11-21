@@ -55,7 +55,7 @@ module.exports = function(karma) {
 
     files: [
       {pattern: 'node_modules/moment/moment.js',},
-      {pattern: 'node_modules/chart.js/dist/chart.js'},
+      {pattern: 'node_modules/chart.js/dist/chart.umd.js'},
       {pattern: 'src/index.js', watched: false},
       {pattern: 'test/index.js'},
       {pattern: 'test/specs/**/**.js'}
